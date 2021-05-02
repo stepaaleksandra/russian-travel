@@ -1,4 +1,9 @@
 .footer {
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-bottom: 24px;
+    min-height: 310px;
+    min-width: 186px;
 }

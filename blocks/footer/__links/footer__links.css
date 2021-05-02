@@ -1,6 +1,5 @@
 .footer__links {
-    flex-wrap: wrap;
-    text-decoration: none;
     list-style-type: none;
-    color: #fff;
+    margin: 0 auto;
+    padding: 0;
 }
