@@ -17,3 +17,19 @@
 .place__paragraph:last-of-type {
     margin-bottom: 50px;
 }
+
+@media screen and (min-width: 768px){
+    .place__paragraph:last-of-type {
+        margin-bottom: 73px;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .place__paragraph {
+        line-height: 29px;
+    }
+
+    .place__paragraph:last-of-type {
+        margin-bottom: 0;
+    }
+}

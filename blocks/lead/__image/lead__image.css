@@ -4,6 +4,7 @@
     margin: 0 auto;
     display: block;
     object-fit: cover;
+    overflow: hidden;
 }
 
 @media screen and (min-width: 768px){
