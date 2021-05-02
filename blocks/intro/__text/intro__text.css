@@ -5,6 +5,21 @@
     font-weight: 400;
     text-align: left;
     color: #fff;
-    margin: 0 0 34px;
+    margin: 0 auto 34px;
     line-height: 26.08px;
+}
+
+@media screen and (min-width: 768px){
+    .intro__text {
+        margin: 0 auto 33px;
+        min-width: 720px;
+        padding-left: 24px;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .intro__text {
+        max-width: 690px;
+        padding-left: 0;
+    }
 }

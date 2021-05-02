@@ -5,3 +5,16 @@
 .footer__list:last-of-type {
     margin-bottom: 0;
 }
+
+@media screen and (min-width: 768px){
+    .footer__list {
+        margin-bottom: 0;
+        margin-left: calc(24px - 18px);
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .footer__list {
+        margin-left: calc(48px - 18px);
+    }
+}
