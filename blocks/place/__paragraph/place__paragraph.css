@@ -8,6 +8,7 @@
     text-align: left;
     color: #fff;
     margin: 0 16px;
+    align-items: stretch;
 }
 
 .place__paragraph:first-of-type {
@@ -20,13 +21,16 @@
 
 @media screen and (min-width: 768px){
     .place__paragraph:last-of-type {
-        margin-bottom: 73px;
+        margin-bottom: 27px;
     }
 }
 
 @media screen and (min-width: 1024px){
     .place__paragraph {
         line-height: 29px;
+        margin: 0 12px;
+        font-size: 18px;
+        line-height: 29.34px;
     }
 
     .place__paragraph:last-of-type {

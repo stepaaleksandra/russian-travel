@@ -14,13 +14,11 @@
         margin: 88px auto 40px;
         font-size: 54px;
         line-height: 58px;
-        padding-left: 24px;
     }
 }
 
 @media screen and (min-width: 1024px){
     .intro__title {
         margin: 92px auto 40px;
-        padding-left: 0;
     }
 }
