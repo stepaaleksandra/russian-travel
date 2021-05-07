@@ -8,7 +8,6 @@
     letter-spacing: 0em;
     text-align: right;
     transition: opacity 0.8s ease-in-out;
-    margin: 18px 0;
     text-decoration: none;
 }
 
@@ -16,9 +15,6 @@
     opacity: 0.8;
 }
 
-.header__lang-link:first-of-type {
-    margin-right: 18px;
-}
 
 @media screen and (min-width: 768px){
     .header__lang-link {
