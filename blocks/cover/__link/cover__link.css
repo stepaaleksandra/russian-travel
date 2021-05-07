@@ -9,6 +9,7 @@
     min-width: 320px;
     background-size: cover;
     background-position: center;
+    max-height: 200px;
 }
 
 .cover__link::after {
@@ -26,4 +27,23 @@
 
 .cover__link:hover::after {
     opacity: 0.8;
+}
+
+
+@media screen and (min-width: 768px){
+    .cover__link {
+        max-height: 480px;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .cover__link {
+        max-height: 640px;
+    }
+}
+
+@media screen and (min-width: 1280px){
+    .cover__link {
+        max-height: 740px;
+    }
 }

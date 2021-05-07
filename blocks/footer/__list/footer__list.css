@@ -9,12 +9,20 @@
 @media screen and (min-width: 768px){
     .footer__list {
         margin-bottom: 0;
-        margin-left: calc(24px - 18px);
+        margin-left: 18px;
+    }
+
+    .footer__list:first-of-type {
+        margin-left: 0;
     }
 }
 
 @media screen and (min-width: 1024px){
     .footer__list {
-        margin-left: calc(48px - 18px);
+        margin-left: 18px;
+    }
+
+    .footer__list:first-of-type {
+        margin-left: 0;
     }
 }

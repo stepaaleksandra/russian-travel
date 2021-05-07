@@ -5,7 +5,7 @@ font-weight: 400;
 font-size: 14px;
 line-height: 16px;
 text-align: center;
-padding: 119px 16px 33px;
+padding: 20px 16px 30px;
 margin: 0;
 }
 
@@ -16,12 +16,14 @@ margin: 0;
         max-width: 360px;
         margin: 0 auto;
         padding-bottom: 115px;
+        padding-top: 32px;
     }
 }
 
 @media screen and (min-width: 1024px){
     .cover__subtitle {
         padding-bottom: 195px;
+        padding-top: 35px;
     }
 }
 
