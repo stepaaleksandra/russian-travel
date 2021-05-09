@@ -6,7 +6,8 @@
     line-height: 12px;
     text-align: left;
     color: #aaa;
-    margin: 0 16px 12px;
-    min-width: 288px;
+    margin: 0;
+    margin-bottom: 12px;
     letter-spacing: 2px;
+    text-transform: uppercase;
 }

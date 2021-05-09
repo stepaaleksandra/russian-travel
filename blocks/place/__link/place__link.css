@@ -7,8 +7,7 @@
     letter-spacing: 0em;
     text-align: left;
     color: #fff;
-    margin: 0 16px;
-    min-width: 288px;
+    text-decoration: underline;
     transition: opacity 0.8s ease-in-out;
 }
 
